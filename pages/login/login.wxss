@@ -1,0 +1,70 @@
+/* pages/login/login.wxss */
+.reg{
+  font-size: 30rpx;
+  color: #7D7D7E;
+  float: right;
+  margin: 30rpx 54rpx 78rpx 0;
+}
+.header{
+  font-size: 36rpx;
+  color: #373737;
+  font-weight: bold;
+  clear: both;
+  margin-left: 103rpx;
+}
+.num_box{
+  margin: 100rpx 54rpx 0 90rpx;
+  display: flex;
+  height: 100rpx;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding-left: 15rpx;
+}
+.num_box input{
+  font-size: 30rpx;
+  color: #B3B3B3;
+}
+.num_box view{
+  font-size: 30rpx;
+  color: #494949;
+}
+.yan{
+  margin: 50rpx 54rpx 96rpx 90rpx;
+  font-size: 30rpx;
+  color: #B3B3B3;
+  padding-left: 15rpx;  
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #e6e6e6;  
+}
+.sub{
+  background: #55A3F2;
+  color: white;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+  height: 94rpx;
+  line-height: 94rpx;
+  text-align: center;
+  width: 643rpx;
+  margin: 0 auto;
+}
+.three{
+  margin: 100rpx 0;
+  text-align: center;
+  font-size: 30rpx;
+  color: #494949;
+}
+.wei{
+  display: block;
+  width: 126rpx;
+  height: 126rpx;
+  margin: 0 auto;
+}
+.bottom{
+  margin: 30rpx auto;
+  text-align: center;
+  font-size: 23rpx;
+  color: #7D7D7E;
+  display: block;
+}

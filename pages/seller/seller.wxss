@@ -1,0 +1,6 @@
+/* pages/seller/seller.wxss */
+.header{
+  color: #55778A;
+  font-size: 24rpx;
+  margin: 55rpx;
+}

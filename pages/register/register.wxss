@@ -1,0 +1,55 @@
+/* pages/register/register.wxss */
+.register{
+  overflow: hidden
+}
+.list{
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin: 0 50rpx;
+  border-bottom: 1px solid #ccc;
+}
+.list>view{
+  color: #494949;
+}
+.list input{
+  color: #B3B3B3;
+  width: 65%;
+}
+.phone view:last-child{
+  color: #E66C6C;
+  font-size: 24rpx;
+  position: absolute;
+  right: 50rpx;
+}
+radio{
+  transform:scale(0.6);
+}
+.radio{
+  padding: 0 50rpx;
+  margin: 48rpx 0;
+  display: block;
+}
+.radiobox{
+  font-size: 23rpx;
+  color: #7D7D7E;
+}
+.button{
+  width: 650rpx;
+  background: #99c7f8;
+  color: white;
+  font-size: 30rpx;
+  margin: 0 auto 50rpx;
+  text-align: center;
+  height: 94rpx;
+  border-radius: 10rpx;
+}
+.have{
+  color: #494949;
+  float: right;
+  font-size: 24rpx;
+  margin-right: 50rpx;
+}

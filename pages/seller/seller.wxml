@@ -1,0 +1,4 @@
+<!--pages/seller/seller.wxml-->
+<view class='header'>
+  感谢您提交申请，开通“商家会员号”希望我们的APP业务工具对您有所帮助，提升贵公司的业务效率，请填写一下信息。我们尽快为您审核及开通。
+</view>

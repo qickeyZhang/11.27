@@ -1,0 +1,52 @@
+ <!--pages/register/register.wxml-->
+ <view class='register'>
+  <view class='list'>
+    <view>手机号码</view>
+    <input type='number' placeholder='请输入手机号'></input>
+  </view>
+
+  <view class='list'>
+    <view>验证码</view>
+    <input type='text' placeholder='请输入图形验证码'></input>
+  </view>
+
+  <view class='list phone'>
+    <view>手机验证码</view>
+    <input type='number' placeholder='请输入手机验证码'></input>
+    <view>获取验证码</view>
+  </view>
+
+  <view class='list'>
+    <view>姓名</view>
+    <input type='text' placeholder='请输入您的姓名'></input>
+  </view>
+
+  <view class='list'>
+    <view>昵称</view>
+    <input type='text' placeholder='请输入您的昵称'></input>
+  </view>
+
+  <view class='list'>
+    <view>身份证号</view>
+    <input type='idcard' placeholder='请输入您的身份证号码'></input>
+  </view>
+
+  <view class='list'>
+    <view>设置密码</view>
+    <input type='text'  password='true' placeholder='设置6-8位密码'></input>
+  </view>
+
+  <view class='list'>
+    <view>确认密码</view>
+    <input type='text' password='true'  placeholder='请再次输入设置密码'></input>
+  </view>
+
+  <label class="radio">
+    <radio/> <text class='radiobox'>请您阅读《会员协议》的相关内容，确认提交后表示您已了解权益并且同意相关条款。</text> 
+  </label>
+
+  <input type='submit' value='提交' class='button'></input>
+
+  <view class='have' bindtap='haved'>已有账号，登录</view>
+
+ </view>
