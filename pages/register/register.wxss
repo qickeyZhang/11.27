@@ -12,19 +12,25 @@
   margin: 0 50rpx;
   border-bottom: 1px solid #ccc;
 }
-.list>view{
+.list>view:first-child{
   color: #494949;
+  width: 35%;
 }
 .list input{
   color: #B3B3B3;
-  width: 65%;
+  flex: 1;
 }
-.phone view:last-child{
+.phone button:last-child{
   color: #E66C6C;
   font-size: 24rpx;
-  position: absolute;
-  right: 50rpx;
+  background: none;
+  padding: 0;
+  outline: none;
 }
+/* border：none属性不是没效果，是被button::after 给覆盖了 */
+button::after {
+  border: 0;
+} 
 radio{
   transform:scale(0.6);
 }
@@ -34,8 +40,8 @@ radio{
   display: block;
 }
 .radiobox{
-  font-size: 23rpx;
-  color: #7D7D7E;
+  font-size: 24rpx;
+  color: #B3B3B3;
 }
 .button{
   width: 650rpx;
@@ -45,6 +51,7 @@ radio{
   margin: 0 auto 50rpx;
   text-align: center;
   height: 94rpx;
+  line-height: 94rpx;
   border-radius: 10rpx;
 }
 .have{
@@ -52,4 +59,11 @@ radio{
   float: right;
   font-size: 24rpx;
   margin-right: 50rpx;
+}
+.deep{
+  background: #55A3F2;
+}
+.piccode{
+  width: 20%;
+  height: 50%;
 }

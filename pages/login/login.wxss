@@ -25,10 +25,17 @@
   font-size: 30rpx;
   color: #B3B3B3;
 }
-.num_box view{
+.num_box button{
   font-size: 30rpx;
   color: #494949;
+  background: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
 }
+button::after {
+  border: 0;
+} 
 .yan{
   margin: 50rpx 54rpx 96rpx 90rpx;
   font-size: 30rpx;

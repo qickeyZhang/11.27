@@ -2,3 +2,56 @@
 <view class='header'>
   感谢您提交申请，开通“商家会员号”希望我们的APP业务工具对您有所帮助，提升贵公司的业务效率，请填写一下信息。我们尽快为您审核及开通。
 </view>
+<view class='center'>
+  <view class='box'>
+    <view>公司所在城市</view>
+    <image src='../../src/images/right.png'></image>
+  </view>
+  <view class='box'>
+    <view>公司全称</view>
+    <input type='text' placeholder='如：深圳智联行房产有限公司'></input>
+  </view>
+  <view class='box'>
+    <view>营业执照号码</view>
+    <input type='text' placeholder='91440580300028888P'></input>
+  </view>
+  <view class='box'>
+    <view>门店名称</view>
+    <input type='text'></input>
+  </view>
+  <view class='box'>
+    <view>详细地址</view>
+    <input type='text'></input>    
+  </view>
+  <view class='box'>
+    <view>经营行业</view>
+    <input type='text'></input>    
+  </view>
+  <view class='box'>
+    <view>主要产品或服务</view>
+    <input type='text'></input>    
+  </view>
+  <view class='box'>
+    <view>业务对接人</view>
+    <input type='text'></input>    
+  </view>
+  <view class='box'>
+    <view>对接人电话</view>
+    <input type='text'></input>    
+  </view>
+  <view class='img'>
+    <view>
+      <image src='../../src/images/add.png'></image>
+      <view class='ding'>请上传公司营业执照照片</view>
+    </view>
+    <view>
+      <image src='../../src/images/add.png'></image>
+      <view class='ding'>请上传公司（如有）“行业许可证”照片</view>
+    </view>
+  </view>
+  <label class="radio">
+    <radio checked='{{ifchecked}}' bindtap='check'/> <text class='radiobox'>请您阅读《会员协议》的相关内容，确认提交后表示您已了解权益并且同意相关条款。</text> 
+  </label>
+
+  <button class='button {{ifchecked?"deep":""}}'>提交</button>
+</view>

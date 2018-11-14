@@ -1,6 +1,74 @@
 /* pages/seller/seller.wxss */
+page{
+  padding-bottom: 30rpx;
+}
 .header{
   color: #55778A;
   font-size: 24rpx;
-  margin: 55rpx;
+  margin: 30rpx 55rpx;
+}
+.center{
+  margin: 0 55rpx;
+}
+.box{
+  border-bottom: 1px solid #e4e4e4;
+  height: 94rpx;
+  font-size: 30rpx;
+  color: #373737;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.box image{
+  width: 15rpx;
+  height: 30rpx;
+}
+.box input{
+  width: 60%;
+  color: #B3B3B3;
+  font-size: 26rpx;
+}
+.img{
+  display: flex;
+  justify-content: space-between;
+  padding: 50rpx 75rpx;
+}
+.img>view{
+  position: relative;
+}
+.img image{
+  width: 175rpx;
+  height: 160rpx;
+}
+.img .ding{
+  position: absolute;
+  color: white;
+  font-size: 18rpx;
+  top: 0;
+  padding: 10rpx 20rpx;
+}
+radio{
+  transform:scale(0.6);
+}
+.radio{
+  display: block;
+  margin-bottom: 48rpx;
+}
+.radiobox{
+  font-size: 24rpx;
+  color: #55778A;
+}
+.button{
+  width: 650rpx;
+  background: #99c8f6;
+  color: white;
+  font-size: 30rpx;
+  margin: 0 auto 50rpx;
+  text-align: center;
+  height: 94rpx;
+  line-height: 94rpx;
+  border-radius: 10rpx;
+}
+.deep{
+  background: #55A3F2;
 }

@@ -8,12 +8,14 @@
   <view class='list'>
     <view>验证码</view>
     <input type='text' placeholder='请输入图形验证码'></input>
+    <!-- <canvas style="width:{{width}}%;height:{{height}}%;" canvas-id="canvas"bindtap='onReady'></canvas> -->
+    <image src="{{img}}" data-src="https://myphpcode.net/" class="piccode" bindtap="nextPic"></image>
   </view>
 
   <view class='list phone'>
     <view>手机验证码</view>
     <input type='number' placeholder='请输入手机验证码'></input>
-    <view>获取验证码</view>
+    <button bindtap="bindButtonTap" disabled='{{disabled}}'>{{txt}}</button>
   </view>
 
   <view class='list'>
@@ -42,10 +44,10 @@
   </view>
 
   <label class="radio">
-    <radio/> <text class='radiobox'>请您阅读《会员协议》的相关内容，确认提交后表示您已了解权益并且同意相关条款。</text> 
+    <radio checked='{{ifchecked}}' bindtap='check'/> <text class='radiobox' bindtap='sell'>请您阅读《会员协议》的相关内容，确认提交后表示您已了解权益并且同意相关条款。</text> 
   </label>
 
-  <input type='submit' value='提交' class='button'></input>
+  <button class='button {{ifchecked?"deep":""}}' >提交</button>
 
   <view class='have' bindtap='haved'>已有账号，登录</view>
 

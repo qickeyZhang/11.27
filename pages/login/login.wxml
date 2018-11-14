@@ -3,10 +3,10 @@
 <view class='header'>手机快捷登录</view>
 <view class='num_box'>
   <input type='number' class='tel' placeholder='请输入手机号码'></input>
-  <view>获取验证码</view>
+  <button bindtap="bindButtonTap" disabled='{{disabled}}'>{{txt}}</button>
 </view>
 <input type='number' class='yan' placeholder='请输入验证码'></input>
-<input type='submit' value='马上登录' class='sub'></input>
+<button class='sub'>马上登录</button>
 <view class='three'>第三方登录</view>
 <image src='../../src/images/weixin.png' class='wei'></image>
 <view class='bottom'>登录即代表您已同意《探家生活用户服务协议》</view>

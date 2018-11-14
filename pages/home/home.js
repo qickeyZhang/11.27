@@ -1,12 +1,27 @@
-// pages/seller/seller.js
+// pages/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    ifchecked: false
+    imgUrls: [
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ],
+    autoplay: true,
+    interval: 3000,
+    duration: 1000,
+    swiperCurrent: 0
   },
+  //点击小圆点
+  swiperChange: function (e) {
+    this.setData({
+      swiperCurrent: e.detail.current
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载
@@ -62,13 +77,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  // 单选按钮
-  check: function () {
-    var that = this
-    var ifchecked = that.data.ifchecked
-    that.setData({
-      ifchecked: !ifchecked
-    })
   }
 })

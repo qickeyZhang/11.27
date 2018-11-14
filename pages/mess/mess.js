@@ -1,11 +1,11 @@
-// pages/seller/seller.js
+// pages/mess/mess.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    ifchecked: false
+
   },
 
   /**
@@ -62,13 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  // 单选按钮
-  check: function () {
-    var that = this
-    var ifchecked = that.data.ifchecked
-    that.setData({
-      ifchecked: !ifchecked
-    })
   }
 })
