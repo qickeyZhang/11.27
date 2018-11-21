@@ -1,0 +1,38 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='header'>
+  <view>余额</view>
+  <view class='yue'>0.00</view>
+  <view class='ul'>
+    <view class='li'>
+      <view>商家余额</view>
+      <view>0.00</view>
+    </view>
+    <view class='li'>
+      <view>剩余积分</view>
+      <view>2046</view>
+    </view>
+  </view>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='ol'>
+  <view class='li'>
+    <image src='../../src/images/chong.png'></image>
+    <view>商家余额</view>
+    <image src='../../src/images/enter.png'></image>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/jilu.png'></image>
+    <view>余额记录</view>
+    <image src='../../src/images/enter.png'></image>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/tixian.png'></image>
+    <view>余额提现</view>
+    <image src='../../src/images/enter.png'></image>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/yin.png'></image>
+    <view>银行卡</view>
+    <image src='../../src/images/enter.png'></image>
+  </view>
+</view>

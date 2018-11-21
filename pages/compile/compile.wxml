@@ -1,0 +1,45 @@
+<!--pages/compile/compile.wxml-->
+<view class='header'>
+  <view>
+    <image src='../../src/images/close.png'></image>
+  </view>
+  <view>存草稿</view>
+  <view>发布</view>
+</view>
+<view class='title'>
+  <input type='text' placeholder='可输入7字'></input>
+  <view>请输入分享分标题</view>
+</view>
+<view class='zheng'>正文</view>
+<view class='ul'>
+  <view class='li'>
+    <view>
+      <image src='../../src/images/addtxt.png'></image>
+    </view>
+    <view>添加文字</view>
+  </view>
+  <view class='li'>
+    <view>
+      <image src='../../src/images/addimg.png'></image>
+    </view>
+    <view>插入图片</view>
+  </view>
+</view>
+<view class='ol'>
+  <view class='li'>
+    <image src='../../src/images/zhuti.png'></image>
+    <view>添加主题</view>
+    <image src='../../src/images/right.png'></image>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/address.png'></image>
+    <view>添加地点</view>
+    <image src='../../src/images/right.png'></image>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/guanlian.png'></image>
+    <view>关联店铺（非必选）</view>
+    <image src='../../src/images/right.png'></image>
+  </view>
+</view>
+<button class='sub'>马上登录</button>

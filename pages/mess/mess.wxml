@@ -1,2 +1,23 @@
 <!--pages/mess/mess.wxml-->
-<text>pages/mess/mess.wxml</text>
+<view class='ul'>
+  <view class='li'>
+    <image src='../../src/images/liao.png'></image>
+    <text>聊天信息</text>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/ping.png'></image>
+    <text>评论</text>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/xi.png'></image>
+    <text>系统信息</text>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/huo.png'></image>
+    <text>活动提醒</text>
+  </view>
+  <view class='li'>
+    <image src='../../src/images/guan.png'></image>
+    <text>官方通知</text>
+  </view>
+</view>

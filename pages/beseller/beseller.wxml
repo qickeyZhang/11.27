@@ -1,0 +1,4 @@
+<!--pages/beseller/beseller.wxml-->
+<image src='../../src/images/beseller.png'></image>
+<view class='button'>申请商家</view>
+<text>商家权益</text>

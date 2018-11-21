@@ -1,0 +1,69 @@
+/* pages/wallet/wallet.wxss */
+.header{
+  overflow: hidden;
+}
+.header>view:first-child{
+  font-size: 45rpx;
+  color: #f8f8f8;
+  text-align: center;
+  margin: 40rpx 0 55rpx;
+}
+.header image{
+  position: absolute;
+  width: 100%;
+  height: 456rpx;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-bottom: 16rpx solid #f4f4f4;  
+}
+.yue{
+  font-size: 45rpx;
+  color: #f8f8f8;
+  text-align: center;
+}
+.ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90rpx;
+  margin: 65rpx 0 45rpx;
+}
+.ul .li{
+  font-size: 45rpx;
+  color: #f8f8f8;
+  text-align: center;
+}
+.ul .li view:first-child{ 
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+}
+.ol{
+  padding: 15rpx 40rpx 0;
+}
+.ol .li{
+  height: 95rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 30rpx;
+  color: #7d7d7e;
+  padding: 0 15rpx;
+}
+.ol .li image:first-child{
+  width: 40rpx;
+  height: 35rpx;
+  margin-right: 52rpx;
+}
+.ol .li image:last-child{
+  width: 20rpx;
+  height: 35rpx;
+}
+.ol .li view{
+  flex: 1;
+}
+.ol .li:nth-child(3) image:first-child{
+  width: 43rpx;
+  margin-right: 49rpx;
+}

@@ -1,0 +1,25 @@
+/* pages/beseller/beseller.wxss */
+image{
+  display: block;
+  width: 415rpx;
+  height: 340rpx;
+  margin: 125rpx auto 138rpx;
+}
+.button{
+  text-align: center;
+  width: 643rpx;
+  height: 94rpx;
+  line-height: 94rpx;
+  margin: 0 auto;
+  background: #56a3f3;
+  color: white;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+}
+text{
+  margin-top: 53rpx;
+  padding-right: 53.5rpx;
+  color: #858585;
+  font-size: 30rpx;
+  float: right;
+}

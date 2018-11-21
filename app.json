@@ -1,9 +1,12 @@
 {
   "pages":[
+    "pages/compile/compile",
     "pages/home/home",
     "pages/shop/shop",
     "pages/mess/mess",
     "pages/my/my",
+    "pages/wallet/wallet",    
+    "pages/beseller/beseller",
     "pages/register/register",
     "pages/login/login",    
     "pages/seller/seller",
@@ -42,7 +45,7 @@
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "src/images/my1.png",
+        "iconPath": "src/images/my0.png",
         "selectedIconPath": "src/images/my1.png"
       }
     ]

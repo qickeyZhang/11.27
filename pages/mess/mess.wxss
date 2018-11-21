@@ -1,1 +1,37 @@
 /* pages/mess/mess.wxss */
+page{
+  background: #f4f4f4;
+}
+.ul{
+  margin-top: 35rpx;
+  padding: 0 35rpx;
+  background: white;  
+}
+.ul .li{
+  border-bottom: 1px solid #e6e6e6;
+  height: 95rpx;
+  line-height: 95rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15rpx;
+}
+image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 50rpx;
+}
+text{
+  flex: 1;
+  color: #7d7d7e;
+  font-size: 30rpx;
+}
+.ul .li:last-child{
+  border: none;
+}
+.ul .li:nth-child(3) image{
+  width: 35rpx;
+  height: 40rpx;
+  margin-right: 52.5rpx;
+  margin-left: 2.5rpx;
+}
