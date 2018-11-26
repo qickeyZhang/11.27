@@ -1,2 +1,66 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='header'>
+  <image src='../../src/images/shezhi.png'></image>
+  <image src='../../src/images/xinxi.png'></image>
+</view>
+<view class='touxiang'>
+  <image src='../../src/images/tou.jpg'></image>
+  <view class='name'>
+    <view>林源</view>
+    <view>探学</view>
+  </view>
+  <view class='go'>
+    <view>个人信息</view>
+    <image src='../../src/images/geren.png'></image>
+  </view>
+</view>
+<view class='num'>
+  <view>探家号：00123</view>
+  <view>打卡</view>
+</view>
+<view class='main'>
+  <view class='main_header'>
+    <view class='main_list'>
+      <image src='../../src/images/qiandai.png'></image>
+      <view>我的钱袋</view>
+    </view>
+    <view class='main_list'>
+      <image src='../../src/images/canyu.png'></image>
+      <view>参与推广</view>
+    </view>
+    <view class='main_list'>
+      <image src='../../src/images/fabu.png'></image>
+      <view>发布</view>
+    </view>
+  </view>
+  <view class='ol'>
+    <view class='li'>
+      <image src='../../src/images/dingdan.png'></image>
+      <view>我的订单</view>
+      <image src='../../src/images/enter.png'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/w_guanzhu.png'></image>
+      <view>我的关注</view>
+      <image src='../../src/images/enter.png'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/youhuiquan.png'></image>
+      <view>我的优惠券</view>
+      <image src='../../src/images/enter.png'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/yaoqing.png'></image>
+      <view>我的邀请</view>
+      <image src='../../src/images/enter.png'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/shangjia.png'></image>
+      <view>商家入口</view>
+      <image src='../../src/images/enter.png'></image>
+    </view>
+  </view>
+</view>

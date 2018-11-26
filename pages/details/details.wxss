@@ -1,0 +1,127 @@
+/* pages/details/details.wxss */
+.bj image{
+  width: 100%;
+  height: 430rpx;
+  display: block;
+}
+.main{
+  margin-top: -30rpx;
+  background: white;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.header{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 40rpx 54rpx;
+}
+.header view:first-child{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.header view:last-child{
+  font-size: 28rpx;
+  color: #b3b3b3;
+}
+.biaoqian{
+  padding: 0 54rpx;
+}
+.biaoqian>view{
+  width: 160rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 5rpx;
+  color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  float: left;
+  margin-right: 25rpx;
+  font-size: 20rpx;
+  margin-bottom: 20rpx;
+}
+.address{
+  clear: both;
+  font-size: 24rpx;
+  color: #b3b3b3;
+  padding: 30rpx 54rpx 54rpx;
+}
+.h1{
+  padding: 0 54rpx;
+  font-size: 34rpx;
+  color: #56a3f3;
+  margin-bottom: 25rpx;
+}
+.wei{
+  font-size: 26rpx;
+  color: #e7e7e7;
+  padding: 0 54rpx;
+}
+.ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40rpx 54rpx 60rpx;
+  /* overflow: hidden; */
+}
+.ul .li{
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+  border: 2px solid #e7e7e7;
+  border-radius: 50%;
+  overflow: hidden;  
+}
+.ul .li:not(:first-child){
+  margin-left: -50rpx;
+}
+.ul .li image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.footer{
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 54rpx;
+  background: #f1f1f1;
+  bottom: 0;
+  left: 0;
+}
+.footer>view:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+.button{
+  width: 190rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background: #56a3f3;
+  color: white;
+  font-size: 22rpx;
+}
+.ol .li{
+  font-size: 22rpx;
+  color: #b3b3b3;
+  text-align: center;
+}
+.ol .li:first-child image{
+  width: 45rpx;
+  height: 40rpx;
+}
+.ol .li:nth-child(2) image{
+  width: 55rpx;
+  height: 40rpx;
+}
+.ol .li:last-child image{
+  width: 40rpx;
+  height: 40rpx;
+}

@@ -5,7 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
+    currentTab: 0,
+    imgUrls: [
+        'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+        'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+        'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      ],
+    autoplay: true,
+    interval: 3000,
+    duration: 1000,
+    swiperCurrent: 0
+  },
 
+  //滑动切换
+  swiperTab: function (e) {
+    console.log(e)    
+    var that = this;
+    that.setData({
+      currentTab: e.detail.current
+    });
+  },
+  //点击切换
+  clickTab: function (e) {
+    console.log(this.data.currentTab,e.target.dataset.current)
+    var that = this;
+    if (this.data.currentTab === e.target.dataset.current) {
+      return false;
+    } else {
+      that.setData({
+        currentTab: e.target.dataset.current
+      })
+    }
   },
 
   /**

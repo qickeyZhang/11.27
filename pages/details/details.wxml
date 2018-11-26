@@ -1,0 +1,71 @@
+<!--pages/details/details.wxml-->
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='main'>
+  <view class='header'>
+    <view>万科臻三府三期</view>
+    <view>暂无定价</view>
+  </view>
+  <view class='biaoqian'>
+    <view>万科高端产品</view>
+    <view>香蜜湖贵宅</view>
+    <view>180平四房</view>
+    <view>地铁线上盖</view>
+  </view>
+  <view class='address'>售楼地址：福田安托山</view>
+  <view class='h1'>60000人</view>
+  <view class='wei'>围观</view>
+  <view class='ul'>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/tou.jpg'></image>
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <view class='ol'>
+    <view class='li'>
+      <image src='../../src/images/guanzhu.png'></image>
+      <view>关注</view>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/fenxiang.png'></image>
+      <view>分享好友</view>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/baocun.png'></image>
+      <view>保存图片</view>
+    </view>
+  </view>
+  <view class='button'>咨询顾问</view>
+</view>

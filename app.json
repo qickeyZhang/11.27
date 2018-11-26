@@ -1,11 +1,13 @@
 {
   "pages":[
-    "pages/compile/compile",
-    "pages/home/home",
+    "pages/my/my",    
+    "pages/wallet/wallet",
+    "pages/details/details",
+    "pages/appointment/appointment",
     "pages/shop/shop",
+    "pages/home/home",
     "pages/mess/mess",
-    "pages/my/my",
-    "pages/wallet/wallet",    
+    "pages/compile/compile",    
     "pages/beseller/beseller",
     "pages/register/register",
     "pages/login/login",    

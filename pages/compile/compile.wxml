@@ -10,7 +10,14 @@
   <input type='text' placeholder='可输入7字'></input>
   <view>请输入分享分标题</view>
 </view>
-<view class='zheng'>正文</view>
+<view class='zheng'>
+  <image src='../../src/images/ex.png'></image>
+  <view>正文</view>
+</view>
+<view class='zheng'>
+  <image src='../../src/images/ex.png'></image>
+  <view>正文</view>
+</view>
 <view class='ul'>
   <view class='li'>
     <view>

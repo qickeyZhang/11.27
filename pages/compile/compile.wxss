@@ -54,12 +54,23 @@
   font-weight: bold;
 }
 .zheng{
+  position: relative;
   height: 180rpx;
   line-height: 180rpx;
   font-size: 30rpx;
   color: #bfbfbf;
-  padding-left: 82rpx; 
   margin-bottom: 20rpx;
+}
+.zheng image{
+  width: 100%;
+  height: 100%;
+}
+.zheng view{
+  position: absolute;
+  left: 82rpx;
+  top: 0;
+  height: 180rpx;
+  line-height: 180rpx;
 }
 .ul{
   display: flex;

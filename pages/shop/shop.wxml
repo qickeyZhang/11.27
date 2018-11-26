@@ -1,2 +1,249 @@
 <!--pages/shop/shop.wxml-->
-<text>pages/shop/shop.wxml</text>
+<view class='header'>
+  <view class='input'>
+    <image src='../../src/images/search.png'></image>
+    <input type='text' placeholder='搜索'></input>
+  </view>
+  <image src='../../src/images/addr.png'></image>
+</view>
+<view class='ul'>
+  <view class="li {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">推荐</view>
+  <view class="li {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">美食</view>
+  <view class="li {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">娱乐</view>
+  <view class="li {{currentTab==3?'active':''}}" data-current="3" bindtap="clickTab">周游</view>
+  <view class="li {{currentTab==4?'active':''}}" data-current="4" bindtap="clickTab">好房</view>
+  <view class="li {{currentTab==5?'active':''}}" data-current="5" bindtap="clickTab">租房</view>
+</view>
+<swiper current="{{currentTab}}" class='swiper' style="height:800px;" duration="300" bindchange="swiperTab">
+  <swiper-item catchtouchmove='catchTouchMove'>
+    <!-- 小轮播 -->
+    <view class='swiper-container'>
+      <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="dots">
+          <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+            <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+          </block>
+        </view>
+    </view>
+    <view class='title'>热点推荐</view>
+    <view class="section section_gap">
+      <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+          <view>东部华侨城</view>
+          <view>娱乐 s深圳 坂田区</view>
+          <view>
+            <image src='../../src/images/address.png'></image>
+            <view>东部华侨城</view>
+          </view>
+        </view>
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+          <view>东部华侨城</view>
+          <view>娱乐 s深圳 坂田区</view>
+          <view>
+            <image src='../../src/images/address.png'></image>
+            <view>东部华侨城</view>
+          </view>
+        </view>
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+          <view>东部华侨城</view>
+          <view>娱乐 s深圳 坂田区</view>
+          <view>
+            <image src='../../src/images/address.png'></image>
+            <view>东部华侨城</view>
+          </view>
+        </view>
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+          <view>东部华侨城</view>
+          <view>娱乐 s深圳 坂田区</view>
+          <view>
+            <image src='../../src/images/address.png'></image>
+            <view>东部华侨城</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class='title'>大家关注</view>
+    <view class='ol'>
+      <view class='li'>
+        <image src='../../src/images/ex.png'></image>
+        <view>东部华侨城</view>
+        <view>娱乐 s深圳 坂田区</view>
+        <view>
+          <image src='../../src/images/address.png'></image>
+          <view>东部华侨城</view>
+        </view>
+      </view>
+      <view class='li te'>
+        <image src='../../src/images/ex.png'></image>
+        <view>东部华侨城</view>
+        <view>娱乐 s深圳 坂田区</view>
+        <view>
+          <image src='../../src/images/address.png'></image>
+          <view>东部华侨城</view>
+        </view>
+      </view>
+      <view class='li'>
+        <image src='../../src/images/ex.png'></image>
+        <view>东部华侨城</view>
+        <view>娱乐 s深圳 坂田区</view>
+        <view>
+          <image src='../../src/images/address.png'></image>
+          <view>东部华侨城</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item> 
+  <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 美食</view></swiper-item>
+  <swiper-item catchtouchmove='catchTouchMove'>
+    <!-- 小轮播 -->
+    <view class='swiper-container'>
+      <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="dots">
+          <block wx:for="{{imgUrls}}" wx:key="imgUrls">
+            <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+          </block>
+        </view>
+    </view>
+    <view class='yule_title'>
+      <view>当地体验</view>
+      <view>最新最热的特色玩法</view>
+    </view>
+    <view class='yule_ul'>
+      <view class='yule_li'>
+        <image src='../../src/images/ex.png'></image>
+        <view class='yule_right'>
+          <view class='yule_name'>巴黎塞纳河船上</view>
+          <view class='biaoqian'>
+            <view class='rexiao'>上周热销</view>
+            <view class='jinka'>
+              <image src='../../src/images/huang.png'></image>
+              <view>金卡96折</view>
+            </view>
+            <view class='keding'>可定今日</view>
+          </view>
+          <view class='price'>
+            <view>
+              <text>￥</text>
+              <text>320</text>
+              <text>起</text>
+            </view>
+            <view class='quan'>减 10</view>
+            <view class='quan'>券</view>
+          </view>
+          <view class='yule_footer'>
+            <image src='../../src/images/shop.png'></image>
+            <view>猪猪游</view>
+            <view>月售1600</view>
+            <view>200评价</view>
+          </view>
+        </view>
+      </view>
+      <view class='yule_li'>
+        <image src='../../src/images/ex.png'></image>
+        <view class='yule_right'>
+          <view class='yule_name'>巴黎塞纳河船上</view>
+          <view class='biaoqian'>
+            <view class='rexiao'>上周热销</view>
+            <view class='jinka'>
+              <image src='../../src/images/huang.png'></image>
+              <view>金卡96折</view>
+            </view>
+            <view class='keding'>可定今日</view>
+          </view>
+          <view class='price'>
+            <view>
+              <text>￥</text>
+              <text>320</text>
+              <text>起</text>
+            </view>
+            <view class='quan'>减 10</view>
+            <view class='quan'>券</view>
+          </view>
+          <view class='yule_footer'>
+            <image src='../../src/images/shop.png'></image>
+            <view>猪猪游</view>
+            <view>月售1600</view>
+            <view>200评价</view>
+          </view>
+        </view>
+      </view>
+      <view class='yule_li'>
+        <image src='../../src/images/ex.png'></image>
+        <view class='yule_right'>
+          <view class='yule_name'>巴黎塞纳河船上</view>
+          <view class='biaoqian'>
+            <view class='rexiao'>上周热销</view>
+            <view class='jinka'>
+              <image src='../../src/images/huang.png'></image>
+              <view>金卡96折</view>
+            </view>
+            <view class='keding'>可定今日</view>
+          </view>
+          <view class='price'>
+            <view>
+              <text>￥</text>
+              <text>320</text>
+              <text>起</text>
+            </view>
+            <view class='quan'>减 10</view>
+            <view class='quan'>券</view>
+          </view>
+          <view class='yule_footer'>
+            <image src='../../src/images/shop.png'></image>
+            <view>猪猪游</view>
+            <view>月售1600</view>
+            <view>200评价</view>
+          </view>
+        </view>
+      </view>
+      <view class='yule_li'>
+        <image src='../../src/images/ex.png'></image>
+        <view class='yule_right'>
+          <view class='yule_name'>巴黎塞纳河船上</view>
+          <view class='biaoqian'>
+            <view class='rexiao'>上周热销</view>
+            <view class='jinka'>
+              <image src='../../src/images/huang.png'></image>
+              <view>金卡96折</view>
+            </view>
+            <view class='keding'>可定今日</view>
+          </view>
+          <view class='price'>
+            <view>
+              <text>￥</text>
+              <text>320</text>
+              <text>起</text>
+            </view>
+            <view class='quan'>减 10</view>
+            <view class='quan'>券</view>
+          </view>
+          <view class='yule_footer'>
+            <image src='../../src/images/shop.png'></image>
+            <view>猪猪游</view>
+            <view>月售1600</view>
+            <view>200评价</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </swiper-item> 
+  <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 周游</view></swiper-item> 
+  <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 好房</view></swiper-item> 
+  <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 租房</view></swiper-item> 
+</swiper>
