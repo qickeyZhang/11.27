@@ -1,0 +1,28 @@
+<!--pages/shouyi/shouyi.wxml-->
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='txt'>累计收益</view>
+<view class='money'>0.00.00</view>
+<view class='ul'>
+  <view class='li'>
+    <view>结算收入</view>
+    <view>0.00.00</view>
+    <view>上月佣金</view>
+  </view>
+  <view class='li'>
+    <view>预估收入</view>
+    <view>0.00.00</view>
+    <view>本月佣金</view>
+  </view>
+</view>
+<view class='ol'>
+  <view class='li'>
+    <view>订单信息</view>
+    <image src='../../src/images/enter.png'></image>
+  </view>
+  <view class='li'>
+    <view>收益记录</view>
+    <image src='../../src/images/enter.png'></image>
+  </view>
+</view>

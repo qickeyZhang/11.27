@@ -1,0 +1,29 @@
+<!--pages/yaoqing/yaoqing.wxml-->
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='num'>
+  <view>150</view>
+  <view>我要邀请</view>
+</view>
+<view class='center'>推广人数</view>
+<view class='ul'>
+  <view class='li'>
+    <view>选择时间</view>
+    <image src='../../src/images/down2.png'></image>
+  </view>
+  <view class='li'>
+    <view>选择时间</view>
+    <image src='../../src/images/down2.png'></image>
+  </view>
+</view>
+<view class='ol'>
+  <view class='li'>
+    <view>来源</view>
+    <image src='../../src/images/down1.png'></image>
+  </view>
+  <view class='li'>
+    <view>时间</view>
+    <image src='../../src/images/down1.png'></image>
+  </view>
+</view>

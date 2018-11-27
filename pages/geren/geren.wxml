@@ -1,0 +1,16 @@
+<!--pages/geren/geren.wxml-->
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='main'>
+  <image src='../../src/images/tou.jpg'></image>
+  <view>
+    <view class='name'>林源</view>
+    <view class='level'>LV.1</view>
+  </view>
+  <view class='txt'>编辑你的个性用命</view>
+</view>
+<view class='null'>
+  <view>这里暂没有内容</view>
+  <view>愿您在每一个薄暮橙光的早上 都能被阳光亲吻</view>
+</view>

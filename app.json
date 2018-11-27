@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/shouyi/shouyi",
+    "pages/geren/geren",
+    "pages/yaoqing/yaoqing",
     "pages/my/my",    
     "pages/wallet/wallet",
     "pages/details/details",

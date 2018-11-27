@@ -1,0 +1,90 @@
+/* pages/yaoqing/yaoqing.wxss */
+.bj image{
+  width: 100%;
+  height: 470rpx;
+  display: block;
+}
+.num{
+  margin-top: -430rpx;
+  padding: 0 54rpx;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.num view:first-child{
+  text-align: center;
+  color: #f8f8f8;
+  font-size: 45rpx;
+}
+.num view:last-child{
+  width: 158rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
+  line-height: 50rpx;
+  text-align: center; 
+  color: #f8f8f8;
+  font-size: 24rpx;
+  font-weight: bold;
+  position: absolute;
+  top: -5rpx;
+  right: 54rpx;
+  background: linear-gradient(to right, #ffc253 , #fdb14f); 
+}
+.center{
+  text-align: center;
+  font-size: 36rpx;
+  color: #f8f8f8;
+  margin: 60rpx 0;
+}
+.ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 93rpx;
+}
+.ul .li{
+  box-sizing: border-box;
+  width: 225rpx;
+  height: 65rpx;
+  color: #ecedee;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25rpx;
+  border: 1px solid #f5faf4;
+  border-radius: 65rpx;
+}
+.ul .li image{
+  width: 36rpx;
+  height: 22rpx;
+  display: block;
+}
+.ol{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 117rpx;
+  height: 140rpx;
+  position: absolute;
+  top: 470rpx;
+  left: 0;
+  width: 100%;
+  background: #f4f4f4;
+}
+.ol .li{
+  box-sizing: border-box;
+  height: 65rpx;
+  color: #7d7d7e;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120rpx;
+}
+.ol .li image{
+  width: 36rpx;
+  height: 20rpx;
+  display: block;
+}
