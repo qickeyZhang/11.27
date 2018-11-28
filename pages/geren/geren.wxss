@@ -18,12 +18,12 @@
 .main>view:nth-child(2){
   float: left;
   margin-left: 60rpx;
-  font-size: 45rpx;
+  font-size: 30rpx;
   color: white;
   margin-top: 20rpx;
+  width: 30%;
 }
 .main>view:nth-child(2) .name{
-  font-size: 45rpx;
   color: white;
 }
 .main>view:nth-child(2) view:last-child{
@@ -33,6 +33,7 @@
   text-align: center;
   border-radius: 5rpx;
   margin-top: 15rpx;
+  width: 60rpx;
 }
 .txt{
   float: right;
