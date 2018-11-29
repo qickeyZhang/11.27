@@ -1,0 +1,190 @@
+/* pages/date/date.wxss */
+.bj image:first-child{
+  width: 100%;
+  height: 470rpx;
+  display: block;
+}
+.bj image:nth-child(2){
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  margin-top: -162.5rpx;
+  margin-left: -162.5rpx;
+  width: 325rpx;
+  height: 325rpx;
+  display: block;
+}
+.bj>view{
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 130rpx;
+  margin-left: -110rpx;
+  width: 220rpx;
+  height: 220rpx;
+  text-align: center;
+}
+.bj>view view:first-child{
+  font-size: 36rpx;
+  color: #3a7cbe;
+  border-bottom: 1rpx solid #abc6e3;
+  margin: 50rpx 30rpx 20rpx;
+  padding-bottom: 20rpx;
+}
+.bj>view view:last-child{
+  font-size: 24rpx;
+  color: #3a7cbe;
+}
+
+
+.wrap{
+  padding: 0 54rpx;
+}
+.date-show{
+	position: relative;
+	width: 250rpx;
+	font-family: PingFang-SC-Regular;
+	font-size: 40rpx;
+	color: #282828;
+	text-align: center;
+	margin: 59rpx auto 10rpx;
+}
+.lt-arrow,.rt-arrow{
+	position: absolute;
+	top: 1rpx;
+	width: 60rpx;
+	height: 60rpx;
+}
+.lt-arrow image,.rt-arrow image{
+	width: 14rpx;
+	height: 26rpx;
+}
+.lt-arrow{
+	left: -110rpx;
+	transform: rotate(180deg);
+}
+.rt-arrow{
+	right: -100rpx;
+}
+.header{
+	/* padding: 0 24rpx; */
+  font-size: 32rpx;
+  color: #7d7d7e;
+}
+.header>view{
+	display: inline-block;
+	width: 14.285%;
+	color: #333;
+	font-size: 30rpx;
+	text-align: center;
+  height: 125rpx;
+  line-height: 125rpx;
+	/* border-bottom: 1px solid #D0D0D0; */
+	/* padding: 39rpx 0; */
+}
+.weekMark{
+	position: relative;
+}
+.weekMark view{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	/* border-bottom: 1px solid #22A7F6; */
+}
+.date-box{
+	font-size: 0;
+	padding: 10rpx 0;
+}
+.date-box>view{
+	position: relative;
+	display: inline-block;
+	width: 14.285%;
+	color: #020202;
+	font-size: 40rpx;
+	text-align: center;
+	vertical-align: middle;
+	/* margin: 15rpx 0; */
+}
+.date-head{
+	width: 56rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+	font-size: 24rpx;
+  color: #7d7d7e;
+  margin: 0 auto;
+}
+/* 下字 */
+.miss{
+  color: #b3b3b3;
+}
+/* 今日下*/
+.nowDay .date-head{
+	width: 56rpx;
+	text-align: center;
+	margin: 0 auto;
+  color: #3a7cbe;
+}
+.date-weight{
+	font-size: 24rpx;
+	/* padding: 15rpx 0; */
+  width: 56rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  /* background: #e6e6e6; */
+  border-radius: 50%;
+  margin: 0 auto;  
+  border: 1px solid #b3b3b3;
+  color: #7d7d7e;
+}
+/* 今日上 */
+.nowDay .date-weight{
+	color: #7d7d7e;
+  background: none;
+  border: 1px solid #3a7cbe;
+}
+.one{
+	position: absolute;
+	bottom: 0;
+	right: 5rpx;
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	background-color: red;
+}
+.two{
+	position: absolute;
+	bottom: 30rpx;
+	right: 5rpx;
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	background-color: blue;
+}
+.okk{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -30rpx;
+}
+.red{
+  color: red;
+}
+.wrap>view:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 95rpx;
+  line-height: 95rpx;
+}
+.wrap>view:first-child view:first-child{
+  font-size: 32rpx;
+  color: #373737;
+  font-weight: bold;
+}
+.wrap>view:first-child view:last-child{
+  font-size: 24rpx;
+  color: #b3b3b3;
+}

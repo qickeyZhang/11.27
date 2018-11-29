@@ -1,0 +1,37 @@
+<!--pages/date/date.wxml-->
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+  <image src='../../src/images/qiandao.png'></image>
+  <view>
+    <view class='click'>点我签到</view>
+    <view>领取10积分</view>
+  </view>
+</view>
+<view class='wrap'>
+	<view>
+		<!-- <view class='date-show'>
+			<view class='lt-arrow' bindtap='lastMonth'>
+				<image src='../images/nextMonth.png' mode='aspectFit'></image>
+			</view>
+			{{year}}年{{month}}月
+			<view class='rt-arrow' bindtap='nextMonth'>
+				<image src='../images/nextMonth.png' mode='aspectFit'></image>
+			</view>
+		</view> -->
+    <view>{{month}}月</view>
+    <view>已累计签到28天</view>
+	</view>
+	<view class='header'>
+		<view wx:for='{{date}}' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}'>{{item}}<view></view></view>
+	</view>
+	<view class='date-box'>
+		<view wx:for='{{dateArr}}' class='{{isToday == item.isToday ? "nowDay" : ""}}' data-date='{{item.isToday}}'>	
+			<!-- <view class='date-weight'>{{item.weight}}</view>    		 -->
+			<view class='date-weight' wx-if='{{item.isToday}}'>{{item.dateNum}}</view>    		
+			<view class='date-head'>
+				<view>{{isToday == item.isToday?'今日':item.dateNum}}</view>
+			</view>
+      <image src='../../src/images/ok.png' class='okk' wx:if='{{isToday - item.isToday > 0}}'></image>
+		</view>
+	</view>
+</view>

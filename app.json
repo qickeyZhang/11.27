@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/date/date",
     "pages/geren/geren",
     "pages/shouyi/shouyi",
     "pages/yaoqing/yaoqing",
