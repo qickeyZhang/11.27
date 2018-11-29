@@ -19,11 +19,33 @@
 </view>
 <view class='ol'>
   <view class='li'>
-    <view>来源</view>
-    <image src='../../src/images/down1.png'></image>
+    <!-- <view>来源</view> -->
+
+    <view class='select_box'>
+      <view class='select' catchtap='selectTap1'>
+        <text class='select_text'>{{selectData1[indexa]}}</text>
+        <image class='select_img {{showa&&"select_img_rotate"}}' src='../../src/images/down1.png'></image>     </view>
+      <view class='option_box' style='height:{{showa?(selectData1.length>5?300:selectData1.length*60):0}}rpx;'>
+        <text class='option' style='{{indexa==selectData1.length-1&&"border:0;"}}' wx:for='{{selectData1}}' wx:key='this' data-index='{{index}}' catchtap='optionTap1'>{{item}}</text>
+      </view>
+    </view>
+
+    <!-- <image src='../../src/images/down1.png'></image> -->
   </view>
   <view class='li'>
-    <view>时间</view>
-    <image src='../../src/images/down1.png'></image>
+    <!-- <view>时间</view> -->
+
+    <view class='select_box'>
+      <view class='select' catchtap='selectTap2'>
+        <text class='select_text'>{{selectData2[indexb]}}</text>
+        <image class='select_img {{showb&&"select_img_rotate"}}' src='../../src/images/down1.png'></image>     
+      </view>
+      <view class='option_box' style='height:{{showb?(selectData2.length>5?300:selectData2.length*60):0}}rpx;'>
+        <text class='option' style='{{indexb==selectData2.length-1&&"border:0;"}}' wx:for='{{selectData2}}' wx:key='this' data-index='{{index}}' catchtap='optionTap2'>{{item}}</text>
+      </view>
+    </view>
+
+    <!-- <image src='../../src/images/down1.png'></image> -->
   </view>
 </view>
+

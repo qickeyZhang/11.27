@@ -1,0 +1,69 @@
+<!--pages/mulu/mulu.wxml-->
+<view class='ul'>
+  <view class="li {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">新房</view>
+  <view class="li {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">二手房</view>
+</view>
+<swiper current="{{currentTab}}" class='swiper' style="height:560px;" duration="300" bindchange="swiperTab">
+  <!-- 新房 -->
+  <swiper-item catchtouchmove='catchTouchMove'>
+    <view class='header'>
+      <view class='input'>
+        <image src='../../src/images/search.png'></image>
+        <input type='text' placeholder='搜索'></input>
+      </view>
+      <image src='../../src/images/addr.png'></image>
+    </view>
+    <view class='ull'>
+      <view class='li'>
+        <view class='main_header'>
+          <view class='name'>万科臻山府三期</view>
+          <view class='status'>销售中</view>
+        </view>
+        <view class='main'>
+          <image src='../../src/images/ex.png'></image>
+          <view class='most'>
+            <view class='price'>暂无定价</view>
+            <view class='people'>60000人围观</view>
+            <view class='ol'>
+              <view class='oll'>万科高端产品</view>
+              <view class='oll'>香蜜湖贵宅</view>
+              <view class='oll'>180平四房</view>
+              <view class='oll'>地铁线上盖</view>
+            </view>
+          </view>
+        </view>
+        <view class='footer'>
+          <image src='../../src/images/address.png'></image>
+          <view class='add'>福田安托山四路</view>
+          <view>详情</view>
+        </view>
+      </view>
+      <view class='li'>
+        <view class='main_header'>
+          <view class='name'>万科臻山府三期</view>
+          <view class='status'>销售中</view>
+        </view>
+        <view class='main'>
+          <image src='../../src/images/ex.png'></image>
+          <view class='most'>
+            <view class='price'>暂无定价</view>
+            <view class='people'>60000人围观</view>
+            <view class='ol'>
+              <view class='oll'>万科高端产品</view>
+              <view class='oll'>香蜜湖贵宅</view>
+              <view class='oll'>180平四房</view>
+              <view class='oll'>地铁线上盖</view>
+            </view>
+          </view>
+        </view>
+        <view class='footer'>
+          <image src='../../src/images/address.png'></image>
+          <view class='add'>福田安托山四路</view>
+          <view>详情</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item> 
+  <!-- 二手房 -->
+  <swiper-item catchtouchmove='catchTouchMove'>welcome come to 二手房</swiper-item>
+</swiper>

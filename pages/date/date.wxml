@@ -22,10 +22,10 @@
     <view>已累计签到28天</view>
 	</view>
 	<view class='header'>
-		<view wx:for='{{date}}' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}'>{{item}}<view></view></view>
+		<view wx:for='{{date}}' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}' wx:key="one">{{item}}<view></view></view>
 	</view>
 	<view class='date-box'>
-		<view wx:for='{{dateArr}}' class='{{isToday == item.isToday ? "nowDay" : ""}}' data-date='{{item.isToday}}'>	
+		<view wx:for='{{dateArr}}' class='{{isToday == item.isToday ? "nowDay" : ""}}' data-date='{{item.isToday}}' wx:key="two">	
 			<!-- <view class='date-weight'>{{item.weight}}</view>    		 -->
 			<view class='date-weight' wx-if='{{item.isToday}}'>{{item.dateNum}}</view>    		
 			<view class='date-head'>

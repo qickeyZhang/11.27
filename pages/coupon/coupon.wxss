@@ -1,0 +1,123 @@
+/* pages/coupon/coupon.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15rpx 54rpx;
+}
+.input{
+  border: 1px solid #b8b8b8;
+  height: 65rpx;
+  line-height: 65rpx;
+  border-radius: 65rpx;
+  padding-left: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  width: 515rpx;
+}
+input{
+  flex: 1;
+}
+.input image{
+  width: 23rpx;
+  height: 25rpx;
+  margin-right: 25rpx;
+  display: block;
+}
+.header>image{
+  width: 55rpx;
+  height: 55rpx;
+}
+.ul{
+  padding: 0 54rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 60rpx;
+  margin-bottom: 30rpx;
+}
+.li{
+  border: none;
+  padding-bottom: 10rpx;  
+  color: #7e7e7e;
+  font-size: 30rpx;
+  font-weight: normal;
+}
+.active{
+  color: #373737;
+  font-size: 32rpx;
+  font-weight: bold;
+  border-bottom: 1px solid #56a3f3;
+}
+.rules{
+  font-size: 28rpx;
+  color: #68b3f9;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.img{
+  position: relative;
+  width: 674rpx;
+  height: 246rpx;
+  margin: 0 auto 15rpx;
+}
+.img image{
+  width: 100%;
+  height: 100%;
+}
+.left{
+  position: absolute;
+  width: 210rpx;
+  top: 85rpx;
+  left: 0;
+  text-align: center;
+  color: #f7dddd;
+  font-size: 24rpx;
+}
+.left .jian{
+  margin-bottom: 40rpx;
+  font-weight: bold;  
+}
+.left .jian text{
+  font-size: 36rpx;
+  color: white;
+}
+.right{
+  position: absolute;
+  top: 32rpx;
+  right: 0;
+  width: 396rpx;
+}
+.which{
+  font-size: 30rpx;
+  color: #151515;
+  font-weight: bold;
+}
+.xian{
+  font-size: 24rpx;
+  color: #7d7d7e;
+}
+.date{
+  position: absolute;
+  bottom: 25rpx;
+  right: 0;
+  font-size: 22rpx;
+  color: #b3b3b3;
+  width: 396rpx;
+}
+.footer{
+  position: fixed;
+  width: 642rpx;
+  left: 54rpx;
+  height: 95rpx;
+  line-height: 95rpx;
+  text-align: center;
+  bottom: 65rpx;
+  font-size: 30rpx;
+  color: white;
+  background: #56a3f3;
+  border-radius: 10rpx;
+}

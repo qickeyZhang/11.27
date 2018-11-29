@@ -1,0 +1,142 @@
+/* pages/mulu/mulu.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15rpx 54rpx;
+}
+.input{
+  border: 1px solid #b8b8b8;
+  height: 65rpx;
+  line-height: 65rpx;
+  border-radius: 65rpx;
+  padding-left: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  width: 515rpx;
+}
+input{
+  flex: 1;
+}
+.input image{
+  width: 23rpx;
+  height: 25rpx;
+  margin-right: 25rpx;
+  display: block;
+}
+.header>image{
+  width: 55rpx;
+  height: 55rpx;
+}
+.ul{
+  padding: 0 150rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10rpx;
+  overflow: hidden;
+  height: 60rpx;
+  line-height: 60rpx; 
+  margin-bottom: 15rpx;
+}
+.li{
+  border: none;
+  color: #7d7d7e;
+  font-size: 30rpx;
+  font-weight: normal;
+}
+.active{
+  color: #373737;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.ull{
+  margin: 0 32rpx;
+}
+.ull .li{
+  border-top: 1px solid #e6e6e6;
+}
+.ull .li .main_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22rpx;
+  height: 100rpx;
+}
+.name{
+  font-size: 32rpx;
+  color: #373737;
+  font-weight: bold;
+}
+.status{
+  font-size: 28rpx;
+  color: #b3b3b3;
+}
+.main,.footer{
+  padding: 0 22rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main>image{
+  width: 420rpx;
+  height: 310rpx;
+  display: block;
+  border-radius: 10rpx;
+  flex: 1;
+  margin-right: 37rpx;
+}
+.most{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 310rpx;
+}
+.price{
+  font-size: 28rpx;
+  color: #b3b3b3;
+  text-align: center;
+  font-weight: bold;
+}
+.people{
+  font-size: 28rpx;
+  color: #55a3f2;
+  flex: 1;
+  margin-top: 25rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.oll{
+  box-sizing: border-box;
+  width: 160rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border: 1px solid #b3b3b3;
+  color: #b3b3b3;
+  font-size: 22rpx;
+  text-align: center;
+  margin-bottom: 8rpx;
+  border-radius: 10rpx;
+}
+.footer{
+  height: 100rpx;
+}
+.footer image{
+  width: 17rpx;
+  height: 26rpx;
+  display: block;
+  margin-right: 30rpx;
+}
+.footer view:nth-child(2){
+  font-size: 24rpx;
+  color: #7d7d7e;
+  flex: 1;
+}
+.footer view:last-child{
+  font-size: 24rpx;
+  color: #b3b3b3;
+}

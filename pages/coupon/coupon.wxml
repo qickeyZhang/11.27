@@ -1,0 +1,31 @@
+<!--pages/coupon/coupon.wxml-->
+<view class='ul'>
+  <view class="li {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">优惠券</view>
+  <view class="li {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">已使用</view>
+  <view class="li {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">过期失效</view>
+</view>
+
+<swiper current="{{currentTab}}" class='swiper' style="height:560px;" duration="300" bindchange="swiperTab">
+  <!-- 优惠券 -->
+  <swiper-item catchtouchmove='catchTouchMove'>
+    <view class='rules'>优惠相关规则说明</view>
+    <view class='img'>
+      <image src='../../src/images/youbj.png'></image>
+      <view class='left'>
+        <view class='jian'>￥<text>50</text></view>
+        <view>满500可用</view>
+      </view>
+      <view class='right'>
+        <view class='which'>探家推广商家优惠券</view>
+        <view class='xian'>限酒店频道</view>
+        <view class='xian'>限酒店频道</view>
+      </view>
+      <view class='date'>2017.08.07-2018.12.07</view>      
+    </view>
+    <view class='footer'>前往商旅使用</view>
+  </swiper-item> 
+  <!-- 已使用 -->
+  <swiper-item catchtouchmove='catchTouchMove'>welcome come to 已使用</swiper-item>
+  <!-- 过期失效 -->
+  <swiper-item catchtouchmove='catchTouchMove'>welcome come to 过期失效</swiper-item>
+</swiper>

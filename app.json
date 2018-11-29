@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/coupon/coupon",
+    "pages/housing/housing",
     "pages/date/date",
     "pages/geren/geren",
     "pages/shouyi/shouyi",

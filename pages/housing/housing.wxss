@@ -1,0 +1,136 @@
+/* pages/housing/housing.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 54rpx 25rpx;
+}
+.input{
+  border: 1px solid #b8b8b8;
+  height: 65rpx;
+  line-height: 65rpx;
+  border-radius: 65rpx;
+  padding-left: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  width: 515rpx;
+}
+input{
+  flex: 1;
+}
+.input image{
+  width: 23rpx;
+  height: 25rpx;
+  margin-right: 25rpx;
+  display: block;
+}
+.header>image{
+  width: 55rpx;
+  height: 55rpx;
+}
+.main{
+  margin: 0 40rpx 0 30rpx;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 40rpx;
+}
+.main_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14rpx 0 24rpx;
+}
+/* 下拉菜单 */
+.select_box{
+  width: 100%;
+  /* margin: 30rpx auto; */
+  position: relative;
+}
+.select{
+  box-sizing: border-box;
+  width: 95rpx;
+  height: 70rpx;
+  /* border:1px solid #efefef; */
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  /* padding: 0 20rpx; */
+}
+.select_text{
+  font-size: 30rpx;
+  flex: 1;
+}
+.select_img{
+  width: 28rpx;
+  height: 16rpx;
+  display: block;
+  transition:transform 0.3s;
+}
+.select_img_rotate{
+  transform:rotate(180deg); 
+}
+.option_box{
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  /* border:1px solid #efefef; */
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+}
+.option{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+}
+/* 主体 */
+.ul{
+  /* padding:33rpx 14rpx 0 24rpx; */
+}
+.ul .li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:33rpx 14rpx 33rpx 24rpx;
+  border-bottom: 1px solid #e6e6e6;
+}
+.ul .li image{
+  width: 255rpx;
+  height: 216rpx;
+  display: block;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+.right{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 216rpx;
+}
+.name{
+  font-size: 28rpx;
+  color: #373737;
+  font-weight: bold;
+}
+.addr,.price{
+  font-size: 24rpx;
+  color: #7d7d7e;
+}
+.price text{
+  font-size: 28rpx;
+  color: #f75a5a;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20rpx;
+  color: #b3b3b3;
+}

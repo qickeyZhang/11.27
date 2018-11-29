@@ -1,0 +1,114 @@
+<!--pages/housing/housing.wxml-->
+<view class='header'>
+  <view class='input'>
+    <image src='../../src/images/search.png'></image>
+    <input type='text' placeholder='搜索'></input>
+  </view>
+  <image src='../../src/images/addr.png'></image>
+</view>
+<view class='main'>
+  <view class='main_header'>
+    <view class='every'>
+      <view class='select_box'>
+        <view class='select' catchtap='selectTap1'>
+          <text class='select_text'>{{selectData1[indexa]}}</text>
+          <image class='select_img {{showa&&"select_img_rotate"}}' src='../../src/images/down1.png'></image>     </view>
+        <view class='option_box' style='height:{{showa?(selectData1.length>5?300:selectData1.length*60):0}}rpx;'>
+          <text class='option' style='{{indexa==selectData1.length-1&&"border:0;"}}' wx:for='{{selectData1}}' wx:key='this' data-index='{{index}}' catchtap='optionTap1'>{{item}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='every'>
+      <view class='select_box'>
+        <view class='select' catchtap='selectTap2'>
+          <text class='select_text'>{{selectData2[indexb]}}</text>
+          <image class='select_img {{showb&&"select_img_rotate"}}' src='../../src/images/down1.png'></image>     </view>
+        <view class='option_box' style='height:{{showb?(selectData2.length>5?300:selectData2.length*60):0}}rpx;'>
+          <text class='option' style='{{indexb==selectData2.length-1&&"border:0;"}}' wx:for='{{selectData2}}' wx:key='this' data-index='{{index}}' catchtap='optionTap2'>{{item}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='every'>
+      <view class='select_box'>
+        <view class='select' catchtap='selectTap3'>
+          <text class='select_text'>{{selectData3[indexc]}}</text>
+          <image class='select_img {{showc&&"select_img_rotate"}}' src='../../src/images/down1.png'></image>     </view>
+        <view class='option_box' style='height:{{showc?(selectData3.length>5?300:selectData3.length*60):0}}rpx;'>
+          <text class='option' style='{{indexc==selectData3.length-1&&"border:0;"}}' wx:for='{{selectData3}}' wx:key='this' data-index='{{index}}' catchtap='optionTap3'>{{item}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='every'>
+      <view class='select_box'>
+        <view class='select' catchtap='selectTap4'>
+          <text class='select_text'>{{selectData4[indexd]}}</text>
+          <image class='select_img {{showd&&"select_img_rotate"}}' src='../../src/images/down1.png'></image>     </view>
+        <view class='option_box' style='height:{{showd?(selectData4.length>5?300:selectData4.length*60):0}}rpx;'>
+          <text class='option' style='{{indexd==selectData4.length-1&&"border:0;"}}' wx:for='{{selectData4}}' wx:key='this' data-index='{{index}}' catchtap='optionTap4'>{{item}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='ul'>
+    <view class='li'>
+      <image src='../../src/images/ex.png'></image>
+      <view class='right'>
+        <view class='name'>三代同堂</view>
+        <view class='addr'>深圳 观澜观湖园 5房/2厅</view>
+        <view class='price'><text>1050</text>万 <text>4200/</text>㎡</view>
+        <view class='footer'>
+          <view>商家名</view>
+          <view>发布时间：18/08/07</view>
+        </view>
+      </view>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/ex.png'></image>
+      <view class='right'>
+        <view class='name'>三代同堂</view>
+        <view class='addr'>深圳 观澜观湖园 5房/2厅</view>
+        <view class='price'><text>1050</text>万 <text>4200/</text>㎡</view>
+        <view class='footer'>
+          <view>商家名</view>
+          <view>发布时间：18/08/07</view>
+        </view>
+      </view>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/ex.png'></image>
+      <view class='right'>
+        <view class='name'>三代同堂</view>
+        <view class='addr'>深圳 观澜观湖园 5房/2厅</view>
+        <view class='price'><text>1050</text>万 <text>4200/</text>㎡</view>
+        <view class='footer'>
+          <view>商家名</view>
+          <view>发布时间：18/08/07</view>
+        </view>
+      </view>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/ex.png'></image>
+      <view class='right'>
+        <view class='name'>三代同堂</view>
+        <view class='addr'>深圳 观澜观湖园 5房/2厅</view>
+        <view class='price'><text>1050</text>万 <text>4200/</text>㎡</view>
+        <view class='footer'>
+          <view>商家名</view>
+          <view>发布时间：18/08/07</view>
+        </view>
+      </view>
+    </view>
+    <view class='li'>
+      <image src='../../src/images/ex.png'></image>
+      <view class='right'>
+        <view class='name'>三代同堂</view>
+        <view class='addr'>深圳 观澜观湖园 5房/2厅</view>
+        <view class='price'><text>1050</text>万 <text>4200/</text>㎡</view>
+        <view class='footer'>
+          <view>商家名</view>
+          <view>发布时间：18/08/07</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
