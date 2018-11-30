@@ -5,7 +5,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    showMore1: false,
+    showMore2: false,
+    showMore3:false
+  },
+
+  // 点击展开
+  listToggle1:function(){
+    console.log(this.data.showMore)
+    this.setData({
+      showMore1 : !this.data.showMore1
+    })
+  },
+  listToggle2: function () {
+    console.log(this.data.showMore)
+    this.setData({
+      showMore2: !this.data.showMore2
+    })
+  },
+  listToggle3: function () {
+    console.log(this.data.showMore)
+    this.setData({
+      showMore3: !this.data.showMore3
+    })
   },
 
   /**

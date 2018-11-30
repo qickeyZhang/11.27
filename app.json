@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/details/details",
     "pages/coupon/coupon",
     "pages/housing/housing",
     "pages/date/date",
@@ -8,7 +9,6 @@
     "pages/yaoqing/yaoqing",
     "pages/my/my",    
     "pages/wallet/wallet",
-    "pages/details/details",
     "pages/appointment/appointment",
     "pages/shop/shop",
     "pages/home/home",

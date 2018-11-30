@@ -13,8 +13,8 @@
     <view>180平四房</view>
     <view>地铁线上盖</view>
   </view>
-  <view class='address'>售楼地址：福田安托山</view>
-  <view class='h1'>60000人</view>
+  <view class='address'>地址：福田安托山</view>
+  <!-- <view class='h1'>60000人</view>
   <view class='wei'>围观</view>
   <view class='ul'>
     <view class='li'>
@@ -50,7 +50,129 @@
     <view class='li'>
       <image src='../../src/images/tou.jpg'></image>
     </view>
+  </view> -->
+  <view class='tou'>
+    <view><text>8013</text>浏览</view>
+    <view class='touxiang'>
+      <view class='li'>
+        <image src='../../src/images/tou.jpg'></image>
+      </view>
+      <view class='li'>
+        <image src='../../src/images/tou.jpg'></image>
+      </view>
+      <view class='li'>
+        <image src='../../src/images/tou.jpg'></image>
+      </view>
+    </view>
   </view>
+  <view class='sec'>
+    <view class='h6'>项目亮点</view>
+    <view class="con {{!showMore1? 'hiddenmore' : 'showmore'}}">撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了</view>
+    <view class='open' bindtap='listToggle1' wx:if="{{!showMore1}}">
+      <view>展开</view>
+      <image src='../../src/images/more.png'></image>
+    </view>
+    <view class='open' bindtap='listToggle1' wx:else>
+      <view>收起</view>
+      <image src='../../src/images/more.png'></image>
+    </view>
+  </view>
+  <view class='sec'>
+    <view class='h6'>项目介绍</view>
+    <view class="con {{!showMore2? 'hiddenmore' : 'showmore'}}">撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了撒娇了大家萨拉都杀了大家萨拉都杀了</view>
+    <view class='open' bindtap='listToggle2'wx:if="{{!showMore2}}">
+      <view>展开</view>
+      <image src='../../src/images/more.png'></image>
+    </view>
+    <view class='open' bindtap='listToggle2'wx:else>
+      <view>收起</view>
+      <image src='../../src/images/more.png'></image>
+    </view>
+  </view>
+  <view class='sec'>
+    <view class='h6'>基本信息</view>
+    <view class="xinxi {{!showMore3? 'hiddenmorexx' : 'showmore'}}">
+      <view class='xinxi_list'>
+        <view>开发商</view>
+        <view>深圳地铁</view>
+      </view>
+      <view class='xinxi_list'>
+        <view>物业公司</view>
+        <view>深圳万科服务有限公司</view>
+      </view>
+      <view class='xinxi_list'>
+        <view>开盘时间</view>
+        <view>2017/02/15</view>
+      </view>
+      <view class='xinxi_list'>
+        <view>交房时间</view>
+        <view>2020/12/30</view>
+      </view>
+    </view>
+    <view class='open' bindtap='listToggle3'wx:if="{{!showMore3}}">
+      <view>展开</view>
+      <image src='../../src/images/more.png'></image>
+    </view>
+    <view class='open' bindtap='listToggle3'wx:else>
+      <view>收起</view>
+      <image src='../../src/images/more.png'></image>
+    </view>
+  </view>
+  <view class='sec'>
+    <view class='h6'>主要户型</view>
+    <view class="section section_gap">
+      <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+        <view class="scroll-view-item_H li">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view class='sec'>
+    <view class='h6'>最新动态</view>
+    <view class="section section_gap">
+      <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view class="scroll-view-item_H lii">
+          <view id='dong'>
+            <view>动态</view>
+          <view>万科“城乡建设与生活服务商”落地代敬请期待</view>
+          <view class='dada'>2017-04-02</view>
+          </view>
+        </view>
+        <view class="scroll-view-item_H lii">
+          <view id='dong'>
+            <view>动态</view>
+          <view>万科“城乡建设与生活服务商”落地代敬请期待</view>
+          <view class='dada'>2017-04-02</view>
+          </view>
+        </view>
+        <view class="scroll-view-item_H lii">
+          <view id='dong'>
+            <view>动态</view>
+          <view>万科“城乡建设与生活服务商”落地代敬请期待</view>
+          <view class='dada'>2017-04-02</view>
+          </view>
+        </view>
+        <view class="scroll-view-item_H lii">
+          <view id='dong'>
+            <view>动态</view>
+          <view>万科“城乡建设与生活服务商”落地代敬请期待</view>
+          <view class='dada'>2017-04-02</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
 </view>
 <view class='footer'>
   <view class='ol'>

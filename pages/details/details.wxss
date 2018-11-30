@@ -1,4 +1,7 @@
 /* pages/details/details.wxss */
+page{
+  padding-bottom: 120rpx;
+}
 .bj image{
   width: 100%;
   height: 430rpx;
@@ -36,15 +39,15 @@
   color: #e7e7e7;
   border: 1px solid #e7e7e7;
   float: left;
-  margin-right: 25rpx;
+  margin-right: 10rpx;
   font-size: 20rpx;
   margin-bottom: 20rpx;
 }
 .address{
   clear: both;
   font-size: 24rpx;
-  color: #b3b3b3;
-  padding: 30rpx 54rpx 54rpx;
+  color: #707070;
+  padding: 25rpx 54rpx 45rpx;
 }
 .h1{
   padding: 0 54rpx;
@@ -124,4 +127,125 @@
 .ol .li:last-child image{
   width: 40rpx;
   height: 40rpx;
+}
+.tou{
+  padding: 0 54rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 45rpx 0;
+}
+.tou view:first-child{
+  font-size: 30rpx;
+  color: #707070;
+}
+.tou view:first-child text{
+  color: #4a4949;  
+}
+.touxiang .li{
+  width: 64rpx;
+  height: 64rpx;
+  float: right;
+  margin-left: -10rpx;
+}
+.touxiang .li image{
+  box-sizing: border-box;
+  border: 2px solid #e7e7e7;  
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.sec{
+  padding: 0 54rpx 45rpx;
+}
+.sec .h6{
+  font-size: 36rpx;
+  color: #4a4949;
+  margin-bottom: 45rpx;
+}
+.sec .con{
+  overflow: hidden;
+  font-size: 30rpx;
+  color: #707070;
+  line-height: 50rpx;
+}
+.open{
+  width: 115rpx;
+  color: #55a3f2;
+  font-size: 30rpx;
+  margin: 30rpx auto 0;
+  overflow: hidden;
+}
+.open view{
+  float: left;
+}
+.open image{
+  margin-top: 8rpx;
+  width: 43rpx;
+  height: 24rpx;
+  display: block;
+  float: right;
+}
+.xinxi{
+  font-size: 30rpx;
+  color: #707070;
+}
+.xinxi_list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.xinxi .xinxi_list:last-child{
+  margin-bottom: 0;  
+}
+/* 横向轮播 */
+.scroll-view_H{
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  margin-right: 20rpx;  
+  font-size: 30rpx;
+  color: #9b9b9b;
+}
+.scroll-view-item_H.lii{
+  margin-right: 0;
+}
+.scroll-view-item_H>image{
+  width: 468rpx;
+  height: 320rpx;
+  display: block;
+}
+#dong{
+  width: 458rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+  margin: 10rpx;
+  box-shadow:#ccc 0 0 10rpx;
+  border-radius: 10rpx;
+}
+#dong view:first-child{
+  font-size: 30rpx;
+  color: #4a4949;
+  font-weight: bold;
+}
+#dong view:nth-child(2){
+  margin: 30rpx 0 60rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+/* end */
+/* 展开 */
+.hiddenmore{
+  height: 200rpx;
+}
+.hiddenmorexx{
+  height: 250rpx;
+}
+.showmore{
+  height: auto;
 }
