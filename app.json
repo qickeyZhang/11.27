@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/wang/wang",
+    "pages/mulu/mulu",
     "pages/details/details",
     "pages/coupon/coupon",
     "pages/housing/housing",

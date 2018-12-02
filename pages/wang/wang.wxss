@@ -1,0 +1,155 @@
+/* pages/wang/wang.wxss */
+page{
+  padding-bottom: 120rpx;
+}
+.header{
+  padding: 0 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120rpx;
+  background: #b7b7b7;
+  margin-bottom: 45rpx;
+}
+.header>image{
+  width: 85rpx;
+  height: 85rpx;
+  display: block;
+  border-radius: 10rpx;
+}
+.header>view:nth-child(2){
+  height: 85rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 23rpx;
+}
+.header .name{
+  font-size: 30rpx;
+  color: #4a4849;
+}
+.header .num{
+  font-size: 24rpx;
+  color: #6f6f6f;
+}
+.header .shou{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 53rpx;
+  width: 144rpx;
+  padding: 0 32rpx;
+  background: #56a3f3;
+  font-size: 24rpx;
+  color: white;
+  border-radius: 53rpx;
+}
+.header .shou image{
+  width: 22rpx;
+  height: 22rpx;
+  display: block;
+}
+/* 横向轮播 */
+.scroll-view_H{
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  margin-right: 20rpx;  
+  font-size: 30rpx;
+  color: #9b9b9b;
+}
+.scroll-view-item_H.lii{
+  margin-right: 10rpx;
+}
+.scroll-view-item_H.lii:last-child{
+  margin-right: 0;
+}
+.scroll-view-item_H>image{
+  width: 250rpx;
+  height: 170rpx;
+  border-radius: 10rpx;
+  display: block;
+}
+/* end */
+/* 选项卡 */
+.ul{
+  padding: 35rpx 35rpx 0 170rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.ul .li{
+  box-sizing: border-box;
+  color: #7d7d7e;
+  font-size: 30rpx;
+  padding: 0 55rpx 45rpx;
+}
+.active{
+  color: black !important;
+  font-size: 40rpx !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid #55a4f1;
+}
+/* 小选项卡 */
+.ull{
+  width: 170rpx;
+  background: #f2f0f1;
+  color: #4a4949;
+  font-size: 30rpx;
+  float: left;
+}
+.lii{
+  border: none;
+  color: #7d7d7e;
+  font-size: 30rpx;
+  font-weight: normal;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #cdcdcd;
+}
+.activee{
+  background: white;
+  border-left: 2px solid #55a4f1;
+}
+swiper image{
+  width: 507rpx;
+  height: 248rpx;
+  display: block;
+  margin: 22rpx auto 0;
+}
+.footer{
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f2f0f1;
+  font-size: 30rpx;
+  color: #7e7e7e;
+}
+.footer .wang{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 96rpx;
+  border-right: 1px solid #7d7d7e;
+}
+.footer .wang image{
+  width: 38rpx;
+  height: 38rpx;
+  display: block;
+  margin-right: 25rpx;
+}
+.footer .buy{
+  text-align: center;
+  flex: 1;
+}

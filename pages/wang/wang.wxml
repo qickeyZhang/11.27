@@ -1,0 +1,65 @@
+<!--pages/wang/wang.wxml-->
+<view class='header'>
+  <image src='../../src/images/tou.jpg'></image>
+  <view>
+    <view class='name'>猪猪旅行社</view>
+    <view class='num'>50人收藏</view>
+  </view>
+  <view class='shou'>
+    <image src='../../src/images/like.png'></image>
+    <view>收藏</view>
+  </view>
+</view>
+ <view class="section section_gap">
+      <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view class="scroll-view-item_H lii">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+        <view class="scroll-view-item_H lii">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+        <view class="scroll-view-item_H lii">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+        <view class="scroll-view-item_H lii">
+          <image src='../../src/images/ex.png'></image>
+        </view>
+      </scroll-view>
+    </view>
+<view class='ul'>
+  <view class="li {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">商家</view>
+  <view class="li {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">动态</view>
+  <view class="li {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">推广</view>
+</view>
+<swiper current="{{currentTab}}" class='swiper' style="height:610rpx;border-top:1rpx solid #cdcdcd" duration="300" bindchange="swiperTab">
+  <swiper-item catchtouchmove='catchTouchMove'>
+  
+    <view class='ull'>
+      <view class="lii {{currentTab1==0?'activee':''}}" data-current="0" bindtap="clickTab1">概况</view>
+      <view class="lii {{currentTab1==1?'activee':''}}" data-current="1" bindtap="clickTab1">周边</view>
+      <view class="lii {{currentTab1==2?'activee':''}}" data-current="2" bindtap="clickTab1">内景</view>
+      <view class="lii {{currentTab1==3?'activee':''}}" data-current="3" bindtap="clickTab1">外景</view>
+      <view class="lii {{currentTab1==4?'activee':''}}" data-current="4" bindtap="clickTab1">位置</view>
+    </view>
+    <swiper current="{{currentTab1}}" class='swiper' style="height:610rpx;width:580rpx;float:right" duration="300" bindchange="swiperTab1">
+      <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 概况</view></swiper-item>
+      <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 周边</view></swiper-item> 
+      <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 内景</view></swiper-item> 
+      <swiper-item catchtouchmove='catchTouchMove'>
+        <image src='../../src/images/ex.png'></image>
+        <image src='../../src/images/ex.png'></image>
+      </swiper-item> 
+      <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 位置</view></swiper-item> 
+    </swiper>
+
+  </swiper-item> 
+  <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 动态</view></swiper-item> 
+  <swiper-item catchtouchmove='catchTouchMove'><view class='swiper_con'>welcome come to 推广</view></swiper-item> 
+</swiper>
+<view class='footer'>
+  <view class='wang'>
+    <image src='../../src/images/wang.png'></image>
+    <view>联系商家</view>
+  </view>
+  <view class='buy'>购买/预定</view>
+</view>

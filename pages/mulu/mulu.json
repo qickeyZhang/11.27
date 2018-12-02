@@ -1,3 +1,4 @@
 {
-  "navigationBarTitleText": "目录页"
+  "navigationBarTitleText": "目录页",
+  "enablePullDownRefresh": true
 }

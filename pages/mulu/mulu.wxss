@@ -105,8 +105,8 @@ input{
 .people{
   font-size: 28rpx;
   color: #55a3f2;
-  flex: 1;
-  margin-top: 25rpx;
+  /* flex: 1; */
+  /* margin-top: 25rpx; */
   text-align: center;
   font-weight: bold;
 }
