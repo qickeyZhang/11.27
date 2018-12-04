@@ -1,0 +1,148 @@
+/* pages/tui/tui.wxss */
+.h1{
+  font-size: 36rpx;
+  color: #4a4949;
+  margin: 45rpx 0 30rpx; 
+  padding: 0 35rpx;
+}
+.ull{
+  padding: 0 35rpx;
+  margin-bottom: 45rpx;
+  overflow: hidden;
+}
+.ull .lii{
+  float: left;
+  margin-right: 70rpx;
+  margin-bottom: 30rpx;
+  font-size: 36rpx;
+  color: #ababab;
+}
+.masimg{
+  width: 750rpx;
+  height: 415rpx;
+  display: block;
+  border-bottom: 10rpx solid #d4d4d4;
+}
+
+
+.ul{
+  padding: 0 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 130rpx;
+  line-height: 130rpx; 
+  border-bottom: 4rpx solid #dadada;
+}
+.li{
+  border: none;
+  color: #707070;
+  font-size: 36rpx;
+  font-weight: normal;
+  padding: 0 70rpx;
+}
+.active{
+  color: #373737;
+  font-size: 36rpx;
+  font-weight: bold;
+  border-bottom: 2px solid #99c8f6;
+}
+
+.eng{
+  font-size: 30rpx;
+  color: #b3b3b3;
+  text-align: center;
+  margin: 60rpx 0 30rpx;
+  font-weight: bold;
+}
+.han{
+  font-size: 30rpx;
+  color: #707070;
+  text-align: center;
+  font-weight: bold;
+}
+swiper-item .chan:first-child .han{
+  margin-bottom: 45rpx;  
+}
+.chan{
+  border-bottom: 10rpx solid #d4d4d4;
+}
+.chan image{
+  width: 750rpx;
+  height: 415rpx;
+  display: block;
+  margin-bottom: 5rpx;  
+}
+.oll image:last-child{
+  margin-bottom: 0;
+}
+.title{
+  font-size: 30rpx;
+  color: #707070;
+  font-weight: bold;
+  padding: 0 35rpx;
+  margin-top: 45rpx;
+}
+.con{
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #b3b3b3;
+  padding: 0 35rpx;
+}
+.chan .con:last-child{
+  margin-bottom: 45rpx;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 47rpx;
+  margin: 70rpx 0 60rpx;
+}
+.contact image{
+  width: 70rpx;
+  height: 66rpx;
+  display: block;
+  margin-right: 37rpx;
+}
+.right{
+  border-left: 4rpx solid #d3d3d3;
+}
+.right .title{
+  margin: 0;
+}
+.right .con:last-child{
+  margin-bottom: 0;
+}
+swiper-item .chan:nth-child(3){
+  border: none;  
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 106rpx;
+  line-height: 106rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+.footer view:first-child{
+  font-size: 42rpx;
+  color: #fa4444;
+  flex: 1;
+  padding: 0 35rpx;
+  height: 100%;
+}
+.footer view:last-child{
+  color: #707070;
+  font-size: 42rpx;
+  font-weight: bold;
+  text-align: center;
+  width: 316rpx;
+  background: #f4f4f6;
+  height: 100%;
+}

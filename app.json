@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/tui/tui",
     "pages/wang/wang",
     "pages/mulu/mulu",
     "pages/details/details",
