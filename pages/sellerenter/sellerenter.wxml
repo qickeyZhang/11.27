@@ -1,0 +1,30 @@
+<!--pages/sellerenter/sellerenter.wxml-->
+<view class='bj'>
+  <image src='../../src/images/bj.png'></image>
+</view>
+<view class='header'>
+  <image src='../../src/images/tou.jpg'></image>
+  <view>很好玩的东门店</view>
+</view>
+<view class='ul'>
+  <view class='li'>
+    <view class='num'>0</view>
+    <view class='txt'>访问量</view>
+  </view>
+  <view class='li'>
+    <view class='num'>0</view>
+    <view class='txt'>订单量</view>
+  </view>
+  <view class='li'>
+    <view class='num'>0</view>
+    <view class='txt'>关注量</view>
+  </view>
+</view>
+<view class='main'>
+  <view class='every'>
+    <view class='main_header'>管理与设置</view>
+  </view>
+  <view class='every'>
+    <view class='main_header'>营销与推广</view>
+  </view>
+</view>

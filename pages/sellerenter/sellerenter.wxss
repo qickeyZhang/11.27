@@ -1,0 +1,68 @@
+/* pages/sellerenter/sellerenter.wxss */
+page{
+  background: #f4f4f6;
+}
+.bj image{
+  width: 100%;
+  height: 470rpx;
+  display: block;
+}
+.header{
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 60rpx;
+  padding: 0 35rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.header image{
+  width: 150rpx;
+  height: 150rpx;
+  display: block;
+  border-radius: 10rpx;
+  margin-right: 105rpx;
+}
+.header view{
+  flex: 1;
+  text-align: left;
+  font-size: 42rpx;
+  color: white;
+  font-weight: bold;
+}
+.ul{
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 255rpx;
+  padding: 0 69rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 36rpx;
+  color: white;
+}
+.li{
+  text-align: center;
+}
+.num{
+  margin-bottom: 40rpx;
+}
+.main{
+  margin-top: 20rpx;
+  padding: 0 35rpx;
+}
+.every{
+  width: 680rpx;
+  height: 380rpx;
+  margin-bottom: 20rpx;
+  background: white;  
+}
+.main_header{
+  height: 95rpx;
+  line-height: 95rpx;
+  border-bottom: 2rpx solid #e6e6e6;
+  margin: 0 18rpx;
+  font-size: 30rpx;
+  color: #707070;
+}
