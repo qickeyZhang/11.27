@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/map/map",
     "pages/sellerenter/sellerenter",
     "pages/tui/tui",
     "pages/wang/wang",
