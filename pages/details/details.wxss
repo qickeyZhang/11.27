@@ -249,3 +249,58 @@ page{
 .showmore{
   height: auto;
 }
+
+.back{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+}
+.back_main{
+  position: fixed;
+  width: 100%;
+  height: 1038rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  background: white;
+  bottom: 0;
+}
+.back_main .txt{
+  font-size: 26rpx;
+  padding: 0 135rpx;
+  margin: 47rpx 0 26rpx;
+  font-weight: bold;
+}
+.close{
+  position: absolute;
+  bottom: 968rpx;
+  width: 80rpx;
+  text-align: center;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #56a3f3;
+  right: 0;
+  border-bottom-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  color: white;
+}
+.back_main image{
+  width: 100%;
+  height: 770rpx;
+  padding: 0 135rpx;
+  display: block;
+  box-sizing: border-box;  
+}
+.buttons{
+  width: 642rpx;
+  box-sizing: border-box;
+  margin: 40rpx 54rpx;
+  background: #56a3f3;
+  text-align: center;
+  height: 95rpx;
+  line-height: 95rpx;
+  color: white;
+  font-size: 32rpx;
+}

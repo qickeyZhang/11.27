@@ -1,11 +1,11 @@
 {
   "pages":[
-    "pages/map/map",
+    "pages/details/details",
     "pages/sellerenter/sellerenter",
+    "pages/map/map",
     "pages/tui/tui",
     "pages/wang/wang",
     "pages/mulu/mulu",
-    "pages/details/details",
     "pages/coupon/coupon",
     "pages/housing/housing",
     "pages/date/date",

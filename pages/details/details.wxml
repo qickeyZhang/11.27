@@ -184,10 +184,17 @@
       <image src='../../src/images/fenxiang.png'></image>
       <view>分享好友</view>
     </view>
-    <view class='li'>
+    <view class='li' bindtap='saveimg'>
       <image src='../../src/images/baocun.png'></image>
       <view>保存图片</view>
     </view>
   </view>
   <view class='button'>咨询顾问</view>
+</view>
+<view class='back' bindtap='saveimg' wx:if="{{ifsaveimg}}"></view>
+<view class='back_main' wx:if="{{ifsaveimg}}">
+  <view class='close' bindtap='saveimg'>×</view>
+  <view class='txt'>保存后分享图片</view>
+  <image src='../../src/images/ex.png'></image>
+  <view class='buttons'>提交</view>
 </view>

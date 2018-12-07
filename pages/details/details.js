@@ -7,7 +7,8 @@ Page({
   data: {
     showMore1: false,
     showMore2: false,
-    showMore3:false
+    showMore3:false,
+    ifsaveimg: false // 保存弹层
   },
 
   // 点击展开
@@ -27,6 +28,12 @@ Page({
     console.log(this.data.showMore)
     this.setData({
       showMore3: !this.data.showMore3
+    })
+  },
+  // 保存图片
+  saveimg: function () {
+    this.setData({
+      ifsaveimg: !this.data.ifsaveimg
     })
   },
 
